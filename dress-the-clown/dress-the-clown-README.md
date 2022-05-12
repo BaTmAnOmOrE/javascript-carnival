@@ -72,7 +72,7 @@ Okay so that problem solved, now lets refactor your code again to allow for togg
 
 You should now have a fully functioning Put A Clown In Different Hats Simulator. The next step is going to be using the up and down arrow keys to *toggle between the different body parts*.  
 
-12. You're going to need another index that keeps track of which body part you are currently selecting clothing for. Something along the lines of `var clothingIndex = 0`. The index will correspond to the different body parts: `0 = head, 1 = body, 2 = feet`. Write some code that allows you to *use the up and down arrow keys to increase and decrease the clothingIndex variable*, and to make sure it doesn't go too high or low. For now you could `console.log` this number to make sure it's working.
+12. You're going to need another index that keeps track of which body part you are currently selecting clothing for. Something along the lines of `var clothingIndex = 0`. The index will correspond to the different body parts: `0 = head, 1 = body, 2 = shoes`. Write some code that allows you to *use the up and down arrow keys to increase and decrease the clothingIndex variable*, and to make sure it doesn't go too high or low. For now you could `console.log` this number to make sure it's working.
 
 Now comes the part where we bring all the pieces together. 
 
